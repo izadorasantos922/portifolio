@@ -27,14 +27,11 @@ p{
 
 @media(max-width: 425px){
     #home{
-        margin-left: -2rem;
+        margin-left: -0.rem;
         max-width: 90%;
         flex-direction: column-reverse;
         align-items: baseline;
         text-align: center;
-    }
-    h1,h2{
-        font-size: 20px;
     }
     
     p{

@@ -31,3 +31,51 @@ header a:hover{
 a:last-of-type{
     margin-right: 3rem;
 }
+
+.menu-burguer{
+    display: none;
+}
+.nav-mobile{
+    display: none;
+}
+
+@media(max-width: 425px){
+    .nav-desktop{
+        display: none;
+    }
+
+    .menu-burguer{
+        position: absolute;
+        top: 30px;
+        font-size: 25px;
+        right: 25%;
+        display: block;
+    }
+
+    .nav-mobile{
+        z-index: 12;
+        background-color: #000;
+        color: #fff;
+        display: block;
+        position: fixed;
+        height: 100%;
+        top: 0;
+        right: 0;
+        padding: 3rem;
+    }
+
+    .nav-mobile ul{
+        display: block;
+    }
+    .nav-mobile li{
+        margin-bottom: 10px;
+    }
+    .close{
+        position: fixed;
+        top: 25px;
+        color: #fff;
+        font-size: 20px;
+        right: 30px;
+    }
+
+}

@@ -14,11 +14,9 @@ const Footer = () => {
         <a href="mailto:izadorasantosdesousa@gmail.com" target="_blank">
       <MdEmail className='social email' />
       </a>
-
-        
     </div>
     <footer>
-            <p>Todos os direitos reservados 2023 | Desenvolvido por Izadora Santos</p>
+            <p>Todos os direitos reservados 2023 | <br /> Desenvolvido por Izadora Santos</p>
     </footer>
   </>
 }

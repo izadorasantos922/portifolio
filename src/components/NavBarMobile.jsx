@@ -1,13 +1,11 @@
 import './NavBar.css'
 import { Link, animateScroll as scroll, Element } from 'react-scroll';
-import brand from '../assets/_.png'
+import { AiOutlineClose } from "react-icons/ai";
 
-const NavBar = (props) => {
-    return <header>
-    <img src={brand} alt="logo" />
-     {props.children}
-    <nav className='nav-desktop'>
+const NavBarMobile = ({onClick}) => {
+    return  <nav className='nav-mobile'>
         <ul>
+        <AiOutlineClose className="close" onClick={onClick}/>
             <li>
                 <Link to="home" smooth={true} duration={500}>Home</Link>
             </li>
@@ -22,7 +20,6 @@ const NavBar = (props) => {
             </li>
         </ul>
     </nav>
-  </header>
 }
 
-export default NavBar
+export default NavBarMobile
