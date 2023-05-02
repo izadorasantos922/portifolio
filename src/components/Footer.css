@@ -1,0 +1,40 @@
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social{
+    margin-right: 10px;
+    font-size: 38px;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.email:hover{
+    color: red;
+}
+
+.git-hub:hover{
+    background-color: #fff;
+    color: black;
+    border-radius: 20px;
+}
+
+.linkedin:hover{
+    color: blue;
+}
+
+
+footer{
+    margin-top: 2rem;
+    font-style: italic;
+    color: #fff;
+    border-top: 1px solid #fff;
+}
+
+footer p{
+font-size: 15px;
+text-align: center;
+}
