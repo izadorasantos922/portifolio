@@ -1,0 +1,33 @@
+header{
+    z-index: 10;
+    color: #fff;
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+ul{
+    list-style:none;
+    display: flex;
+}
+li{
+    margin-right: 10px;
+}
+
+ header a{
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header a:hover{
+    border-bottom: 2px solid violet;
+}
+
+a:last-of-type{
+    margin-right: 3rem;
+}

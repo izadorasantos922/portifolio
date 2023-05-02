@@ -1,0 +1,52 @@
+#home{
+    color: #fff;
+    padding: 8rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#home img{
+    height: 30rem;
+    margin-right: 0rem;
+}
+.apresentation{
+   display: flex;
+   margin: 0 auto;
+   justify-content: center;
+   flex-direction: column;
+}
+
+p{
+    font-size: 30px;
+}
+.name{
+    color: violet;
+    font-size: 80px;
+}
+
+@media(max-width: 425px){
+    #home{
+        margin-left: -2rem;
+        max-width: 90%;
+        flex-direction: column-reverse;
+        align-items: baseline;
+        text-align: center;
+    }
+    h1,h2{
+        font-size: 20px;
+    }
+    
+    p{
+    font-size: 20px;
+    }
+
+    #home img{
+        height: 12rem;
+        margin: 0 auto;
+    }
+
+    .apresentation{
+        margin: 20px auto 0 auto; 
+    }
+}

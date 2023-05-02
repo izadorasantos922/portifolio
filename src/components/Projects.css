@@ -1,0 +1,34 @@
+#projects img{
+    z-index: 5;
+    transition: transform 0.3s;
+    border-radius: 20px;
+    height: 250px;
+}
+
+#projects img:hover{
+    transform: scale(0.9);
+   }
+
+#projects{
+    margin-left: 3rem;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 300px); 
+    flex-wrap: wrap;
+}
+
+.title{
+    text-align: center;
+    margin: 2rem auto 1rem auto;
+    color: violet;
+    font-size: 60px;
+}
+
+
+@media(max-width: 425px){
+    .title{
+        margin-left: 0;
+    }
+}
+  
