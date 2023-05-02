@@ -27,7 +27,7 @@ p{
 
 @media(max-width: 425px){
     #home{
-        margin-left: -0.rem;
+        margin-left: 0rem;
         max-width: 90%;
         flex-direction: column-reverse;
         align-items: baseline;
@@ -46,4 +46,9 @@ p{
     .apresentation{
         margin: 20px auto 0 auto; 
     }
+}
+
+@media(max-width: 320px){
+    #home{
+        margin-left: 1rem;}
 }

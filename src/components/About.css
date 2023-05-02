@@ -94,3 +94,12 @@
     }
     
 }
+
+@media(max-width: 320px){
+    .about{
+        margin-left: -2rem;
+    }
+    .skills{
+        margin-left: 6rem;
+    }
+}

@@ -54,6 +54,22 @@ text-align: center;
     }
     
     #footer{
-        margin-left: -3rem;
+        margin-left: -1.5rem;
+    }
+}
+
+@media(max-width: 375px){
+    footer{
+        margin-left: -1.5rem;
+    }
+    
+    #footer{
+        margin-left: 0rem;
+    }
+}
+
+@media(max-width: 320px){
+    #footer{
+        margin-left: 1.5rem;
     }
 }
