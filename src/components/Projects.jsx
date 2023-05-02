@@ -6,7 +6,7 @@ import studies from '../assets/vestibular.png';
 import ecommerce from '../assets/sneakers.png';
 const Projects = () => {
   return <>
-    <h1 className='title'>Principais projetos</h1>
+    <h1 className='title'>Principais <br /> projetos</h1>
     <div id="projects">
       <a href="https://izabooksbydora.netlify.app/" target="_blank">
       <img src={izabooks} alt="projeto iza books" />

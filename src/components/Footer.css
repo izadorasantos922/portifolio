@@ -34,7 +34,26 @@ footer{
     border-top: 1px solid #fff;
 }
 
+footer br{
+    display: none;
+}
+
 footer p{
 font-size: 15px;
 text-align: center;
+}
+
+@media(max-width: 425px){
+
+    footer br{
+        display: block;
+    }
+
+    footer{
+        margin-left: -5rem;
+    }
+    
+    #footer{
+        margin-left: -3rem;
+    }
 }

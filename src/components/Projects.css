@@ -25,10 +25,27 @@
     font-size: 60px;
 }
 
+.title br{
+    display: none;
+}
 
 @media(max-width: 425px){
     .title{
-        margin-left: 0;
+       margin-left: -5rem;
+       font-size: 50px;
+    }
+
+    .title br{
+        display: block;
+    }
+    #projects{
+        margin-left: 1.8rem;
+        padding: 3rem 0;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 180px); 
+    }
+    #projects img{
+        height: 150px;
     }
 }
   
