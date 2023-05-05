@@ -10,7 +10,6 @@ const Home = () => {
         <p>sou Desenvolvedora Front-end</p>
     </div>
     <img src={gif} alt="gif" />
-    
     </div>
     </>
   )
