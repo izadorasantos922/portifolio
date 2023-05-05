@@ -53,6 +53,13 @@
     color: rgb(57, 57, 248);
 }
 
+@media(min-width: 2050px){
+    .about{
+        margin: 0 auto;
+       width: 80%;
+    }
+}
+
 @media(max-width: 425px){
     .about{
         display: block;

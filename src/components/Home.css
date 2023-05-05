@@ -8,7 +8,6 @@
 
 #home img{
     height: 30rem;
-    margin-right: 0rem;
 }
 .apresentation{
    display: flex;
@@ -23,6 +22,17 @@ p{
 .name{
     color: violet;
     font-size: 80px;
+}
+
+@media(min-width: 2050px){
+  #home{
+   width: 80%;
+   margin: 0 auto;
+  }
+
+  #home img{
+    margin-left: 30rem;
+}
 }
 
 @media(max-width: 425px){
