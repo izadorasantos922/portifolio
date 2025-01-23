@@ -14,9 +14,9 @@ This repository showcases my personal projects, skills, and accomplishments as a
 - Developed using web technologies such as HTML, CSS, and JavaScript.
 
 ### Technologies Used
+- **React.js**: For building dynamic and interactive user interfaces.
 - **HTML5**: For structuring the web pages.
 - **CSS3**: For styling and layout design.
-- **JavaScript**: For adding interactivity and functionality.
 
 ### Getting Started
 
@@ -24,7 +24,19 @@ This repository showcases my personal projects, skills, and accomplishments as a
    ```bash
    git clone https://github.com/izadorasantos922/portifolio.git
    ```
-2. Open the `index.html` file in your browser to view the portfolio locally.
+2. Navigate to the project directory:
+   ```bash
+   cd portifolio
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+5. Open your browser and go to `http://localhost:3000` to view the portfolio locally.
 
 
 ### Contact
